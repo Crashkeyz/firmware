@@ -1,6 +1,3 @@
-#ifndef BRUCE_SRC_MODULES_IR_TV_B_GONE_H
-#define BRUCE_SRC_MODULES_IR_TV_B_GONE_H
-
 /*
 Last Updated: 05/07/2026
 By: Ninja-Jr
@@ -97,5 +94,3 @@ void sendParsedCodeBatch(const IrCode *const *codes, uint8_t count, IRsend &irse
 void sendRawCodeBatch(const RawIrCode *const *codes, uint8_t count, IRsend &irsend);
 
 #endif
-
-#endif // BRUCE_SRC_MODULES_IR_TV_B_GONE_H
