@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_RFID_PN532_H
+#define BRUCE_SRC_MODULES_RFID_PN532_H
+
 /**
  * @file PN532.h
  * @author Rennan Cockles (https://github.com/rennancockles)
@@ -87,3 +90,5 @@ private:
 
     int write_felica_data_block(int block, String data);
 };
+
+#endif // BRUCE_SRC_MODULES_RFID_PN532_H

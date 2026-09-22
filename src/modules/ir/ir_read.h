@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_IR_IR_READ_H
+#define BRUCE_SRC_MODULES_IR_IR_READ_H
+
 #include <IRrecv.h>
 #include <globals.h>
 
@@ -74,3 +77,5 @@ private:
                                            "MODE_FLASH", "MODE_STROBE",  "MODE_FADE",   "MODE_SMOOTH"};
     std::vector<String> &quickButtons = quickButtonsTV;
 };
+
+#endif // BRUCE_SRC_MODULES_IR_IR_READ_H

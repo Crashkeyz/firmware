@@ -51,9 +51,9 @@ public:
 
     int getInfo(GIFINFO *pInfo) { return gif->getInfo(pInfo); }
 
-    void reset() { return gif->reset(); }
+    void reset() { gif->reset(); }
 
-    void close() { return gif->close(); }
+    void close() { gif->close(); }
 
     int getCanvasWidth() { return gif->getCanvasWidth(); }
 

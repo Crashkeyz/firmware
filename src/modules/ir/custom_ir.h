@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_IR_CUSTOM_IR_H
+#define BRUCE_SRC_MODULES_IR_CUSTOM_IR_H
+
 
 #include <Arduino.h>
 #include <FS.h>
@@ -51,3 +54,5 @@ bool sendDecodedCommand(String protocol, String value, uint8_t bits = 32, bool h
 void otherIRcodes();
 bool txIrFile(FS *fs, const String &filepath, bool hideDefaultUI = false);
 bool chooseCmdIrFile(FS *fs, const String &filepath);
+
+#endif // BRUCE_SRC_MODULES_IR_CUSTOM_IR_H

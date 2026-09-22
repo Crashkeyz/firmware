@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_CORE_WIFI_WEBINTERFACE_H
+#define BRUCE_SRC_CORE_WIFI_WEBINTERFACE_H
+
 
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
@@ -25,3 +28,5 @@ void configureWebServer();
 void startWebUi(bool mode_ap = false);
 void stopWebUi();
 void cleanlyStopWebUiForWiFiFeature();
+
+#endif // BRUCE_SRC_CORE_WIFI_WEBINTERFACE_H

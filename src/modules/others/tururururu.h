@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_OTHERS_TURURURURU_H
+#define BRUCE_SRC_MODULES_OTHERS_TURURURURU_H
+
 #include "core/display.h"
 #include <globals.h>
 
@@ -20,3 +23,5 @@ void checkCollisions();
 void displayScore();
 void shark_setup();
 void shark_loop();
+
+#endif // BRUCE_SRC_MODULES_OTHERS_TURURURURU_H

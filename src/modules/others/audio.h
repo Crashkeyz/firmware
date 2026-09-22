@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_OTHERS_AUDIO_H
+#define BRUCE_SRC_MODULES_OTHERS_AUDIO_H
+
 #include <SPIFFS.h>
 // Keep SPIFFS first
 
@@ -40,3 +43,5 @@ bool pauseAudioPlayback();                   // Pause/resume toggle
 bool isAudioPlaying();                       // Check if audio is playing
 AudioPlaybackInfo getAudioPlaybackInfo();    // Get current state for GUI
 void setAudioPlaybackVolume(uint8_t volume); // Change volume during playback
+
+#endif // BRUCE_SRC_MODULES_OTHERS_AUDIO_H

@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_BJS_INTERPRETER_MQJS_STDLIB_H
+#define BRUCE_SRC_MODULES_BJS_INTERPRETER_MQJS_STDLIB_H
+
 #include "user_classes_js.h"
 #include "buffer_js.h"
 #include "audio_js.h"
@@ -5944,3 +5947,4 @@ const JSSTDLibraryDef js_stdlib = {
   JS_CLASS_COUNT,
 };
 
+#endif // BRUCE_SRC_MODULES_BJS_INTERPRETER_MQJS_STDLIB_H
