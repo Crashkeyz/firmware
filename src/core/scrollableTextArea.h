@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_CORE_SCROLLABLETEXTAREA_H
+#define BRUCE_SRC_CORE_SCROLLABLETEXTAREA_H
+
 #include "display.h"
 
 class ScrollableTextArea {
@@ -54,3 +57,5 @@ private:
 
     void update(bool force = false);
 };
+
+#endif // BRUCE_SRC_CORE_SCROLLABLETEXTAREA_H

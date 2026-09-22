@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_IR_IR_JAMMER_H
+#define BRUCE_SRC_MODULES_IR_IR_JAMMER_H
+
 /**
  * IR Jammer Header File
  * Defines the structure and functions for IR signal jamming operations
@@ -183,3 +186,5 @@ const char *getModeName(uint8_t index);
  * @param prevPressed Whether the "previous" button was pressed
  */
 void handleSettingChange(JammerState &state, bool nextPressed, bool prevPressed);
+
+#endif // BRUCE_SRC_MODULES_IR_IR_JAMMER_H

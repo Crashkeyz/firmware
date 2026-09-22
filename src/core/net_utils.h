@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_CORE_NET_UTILS_H
+#define BRUCE_SRC_CORE_NET_UTILS_H
+
 #include <HTTPClient.h>
 #include <WiFi.h>
 
@@ -14,3 +17,5 @@ String ipToString(const uint8_t *ip);
 
 // Função para converter MAC para string
 String macToString(const uint8_t *mac);
+
+#endif // BRUCE_SRC_CORE_NET_UTILS_H

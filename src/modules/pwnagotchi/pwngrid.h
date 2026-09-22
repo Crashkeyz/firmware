@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_PWNAGOTCHI_PWNGRID_H
+#define BRUCE_SRC_MODULES_PWNAGOTCHI_PWNGRID_H
+
 /*
 Thanks to thoses developers for their projects:
 * @7h30th3r0n3 : https://github.com/7h30th3r0n3/Evil-M5Core2 and https://github.com/7h30th3r0n3/PwnGridSpam
@@ -40,3 +43,5 @@ signed int getPwngridClosestRssi();
 void checkPwngridGoneFriends();
 void clearPwngridPeers();
 #endif
+
+#endif // BRUCE_SRC_MODULES_PWNAGOTCHI_PWNGRID_H

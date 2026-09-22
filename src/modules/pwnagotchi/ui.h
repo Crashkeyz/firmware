@@ -1,3 +1,6 @@
+#ifndef BRUCE_SRC_MODULES_PWNAGOTCHI_UI_H
+#define BRUCE_SRC_MODULES_PWNAGOTCHI_UI_H
+
 /*
 Thanks to thoses developers for their projects:
 * @7h30th3r0n3 : https://github.com/7h30th3r0n3/Evil-M5Core2 and https://github.com/7h30th3r0n3/PwnGridSpam
@@ -22,3 +25,5 @@ void drawTopCanvas();
 void drawBottomCanvas();
 void updateUi(bool show_toolbars = false);
 #endif
+
+#endif // BRUCE_SRC_MODULES_PWNAGOTCHI_UI_H
